@@ -19,8 +19,8 @@ const CONFIG = {
    ChurchLocation: "Church of the Archangel Michael , Assuit .",
    ChurchLocationAr: "كنيسة رئيس الملائكة ميخائيل ، اسيوط. ",
    
-  weddingLocation: "Royal Plaza Hall , Assuit .",
-  weddingLocationAr: "قاعة رويال بلازا دار الضباط الأمن المركزي ، اسيوط. ",
+  weddingLocation2: "Royal Plaza Hall , Assuit .",
+  weddingLocationAr2: "قاعة رويال بلازا دار الضباط الأمن المركزي ، اسيوط. ",
   weddingMapLink:
     "https://maps.app.goo.gl/B7Q4JekhC42Wt9at6?g_st=awep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
 
