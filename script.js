@@ -21,12 +21,12 @@ const CONFIG = {
   weddingMapLink:
     "https://maps.app.goo.gl/B7Q4JekhC42Wt9at6?g_st=awep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
 
-  // --- church Info ---
+  // --- Church Info ---
   hennaDate: "September 17, 2026",
   hennaDateAr: "١٧ سبتمبر ٢٠٢٦",
   hennaTime: "8:00 PM",
-  hennaLocation: "Church of the Archangel Michael",
-  hennaLocationAr: "كنيسة رئيس الملائكة ميخائيل",
+  ChurchLocation: "Church of the Archangel Michael",
+  ChurchLocationAr: "كنيسة رئيس الملائكة ميخائيل",
   hennaMapLink:
     "https://maps.app.goo.gl/5GSpfdpMkn5d41SR9m1!1e1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
 
