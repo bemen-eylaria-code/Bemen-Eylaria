@@ -19,7 +19,7 @@ const CONFIG = {
   weddingLocation: "Royal Plaza Hall , Assuit .",
   weddingLocationAr: "قاعة رويال بلازا دار الضباط الأمن المركزي ، اسيوط. ",
   weddingMapLink:
-    "https://maps.app.goo.gl/sC481GRjCmFUfoWXA!4m6!3m5!1s0x14f79d00388b6d97:0xfa5d841ea753f36b!8m2!3d31.056665!4d31.3956595!16s%2Fg%2F11vz20b4v6!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+    "https://maps.app.goo.gl/B7Q4JekhC42Wt9at6?g_st=awep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
 
   // --- church Info ---
   hennaDate: "September 17, 2026",
