@@ -16,12 +16,19 @@ const CONFIG = {
   weddingDate: "September 17, 2026",
   weddingDateAr: "١٧ سبتمبر ٢٠٢٦",
   weddingTime: "8:00 PM",
-   churchLocation: "Church of the Archangel Michael , Assuit",
-  churchLocationAr: "كنيسة  رئيس الملائكة ميخائيل ، اسيوط",
-   hallLocation: "Royal Plaza Hall , Assuit",
-  hallLocationAr: "قاعة رويال بلازا دار الضباط الامن المركزي -أسيوط",
+  weddingLocation: "Royal Plaza Hall , Assuit .",
+  weddingLocationAr: "قاعة رويال بلازا دار الضباط الأمن المركزي ، اسيوط. ",
   weddingMapLink:
     "https://maps.app.goo.gl/B7Q4JekhC42Wt9at6?g_st=awep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
+
+  // --- church Info ---
+  hennaDate: "September 17, 2026",
+  hennaDateAr: "١٧ سبتمبر ٢٠٢٦",
+  hennaTime: "8:00 PM",
+  hennaLocation: "Church of the Archangel Michael",
+  hennaLocationAr: "كنيسة رئيس الملائكة ميخائيل",
+  hennaMapLink:
+    "https://maps.app.goo.gl/5GSpfdpMkn5d41SR9m1!1e1?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
 
   // --- WhatsApp Numbers (for RSVP) ---
   groomWhatsapp: "201285401167",
@@ -404,17 +411,11 @@ function injectContent() {
     .querySelectorAll(".wedding-time")
     .forEach((el) => (el.textContent = CONFIG.weddingTime));
   document
-    .querySelectorAll(".church-location-en")
-    .forEach((el) => (el.textContent = CONFIG.churchLocation));
+    .querySelectorAll(".wedding-location-en")
+    .forEach((el) => (el.textContent = CONFIG.weddingLocation));
   document
-    .querySelectorAll(".church-location-ar")
-    .forEach((el) => (el.textContent = CONFIG.churchLocationAr));
-   document
-    .querySelectorAll(".hall-location-en")
-    .forEach((el) => (el.textContent = CONFIG.hallLocation));
-  document
-    .querySelectorAll(".hall-location-ar")
-    .forEach((el) => (el.textContent = CONFIG.hallLocationAr));
+    .querySelectorAll(".wedding-location-ar")
+    .forEach((el) => (el.textContent = CONFIG.weddingLocationAr));
   document
     .querySelectorAll(".wedding-map-btn")
     .forEach((btn) => (btn.href = CONFIG.weddingMapLink));
@@ -469,7 +470,21 @@ function injectContent() {
   const hennaLocationAr = document.getElementById("henna-location-ar");
   const hennaMapBtns = document.querySelectorAll(".henna-map-btn");
 
-
+  if (hennaDateEn)
+    hennaDateEn.textContent = CONFIG.hennaDate || "September 24, 2026";
+  if (hennaDateAr)
+    hennaDateAr.textContent = CONFIG.hennaDateAr || "٢٤ سبتمبر ٢٠٢٦";
+  if (hennaTime) hennaTime.textContent = CONFIG.hennaTime || "8:00 PM";
+  if (hennaLocationEn)
+    hennaLocationEn.textContent =
+      CONFIG.hennaLocation || "Villa laguna el marrioteya";
+  if (hennaLocationAr)
+    hennaLocationAr.textContent =
+      CONFIG.hennaLocationAr || "فيلا لاجوانا المريوطية";
+  hennaMapBtns.forEach(
+    (btn) => (btn.href = CONFIG.hennaMapLink || CONFIG.weddingMapLink),
+  );
+}
 
 /* ─── PARTICLES & PETALS ─────────────────────────────────────────── */
 function spawnParticles() {
