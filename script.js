@@ -16,8 +16,8 @@ const CONFIG = {
   weddingDate: "September 17, 2026",
   weddingDateAr: "١٧ سبتمبر ٢٠٢٦",
   weddingTime: "8:00 PM",
-  weddingLocation: "Church of the Archangel Michael , Assuit .. The celebration follows Royal Plaza Hall , Assuit .",
-  weddingLocationAr: "بكنيسة رئيس الملائكة ميخائيل اسيوط .. يليها الاحتفال ب قاعة رويال بلازا دار الضباط الأمن المركزي ، اسيوط. ",
+  weddingLocation: "Church of the Archangel Michael .. The celebration follows Royal Plaza Hall , Assuit .",
+  weddingLocationAr: "بكنيسة رئيس الملائكة ميخائيل .. يليها الاحتفال ب قاعة رويال بلازا دار الضباط الأمن المركزي ، اسيوط. ",
   weddingMapLink:
     "https://maps.app.goo.gl/B7Q4JekhC42Wt9at6?g_st=awep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D",
 
